@@ -34,25 +34,25 @@ h6 {
   font-weight: 600;
 }
 
-body l {
+body .l {
   font-size: 18px;
   line-height: 1.6;
   font-weight: 400;
 }
 
-body m {
+body .m {
   font-size: 16px;
   line-height: 1.6;
   font-weight: 400;
 }
 
-body s {
+body .s {
   font-size: 14px;
   line-height: 1.5;
   font-weight: 400;
 }
 
-body xs {
+body .xs {
   font-size: 12px;
   line-height: 1.4;
   font-weight: 400;
