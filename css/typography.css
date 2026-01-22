@@ -1,10 +1,22 @@
+/*     Importa a fonte local     */
+@font-face {
+  font-family: "Chunq";
+  src: url("/assets/fonts/Chunq.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*     Tipografia     */
+
 h1 {
+  font-family: "Chunq";
   font-size: 64px;
   line-height: 1.05;
   font-weight: 700;
 }
 
 h2 {
+  font-family: "Chunq";
   font-size: 40px;
   line-height: 1.15;
   font-weight: 600;
