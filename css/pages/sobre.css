@@ -1,0 +1,12 @@
+body {
+  background:
+    url(../../assets/images/imagens-bg/imagem-bg-imprensa-sobre-1.png) no-repeat
+      top left,
+    url(../../assets/images/imagens-bg/imagem-bg-imprensa-sobre-2.png) no-repeat
+      bottom right, var(--bg-main-gradient) ;
+}
+
+#imagem-1,
+#imagem-2 {
+  width: 300px;
+}
