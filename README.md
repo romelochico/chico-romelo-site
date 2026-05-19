@@ -36,6 +36,16 @@ The website was carefully engineered to achieve fast loading times and improved 
 - Vanilla JavaScript
 - Formspree
 
+## Local Development
+
+The site uses clean URLs (`/sobre`, `/lancamentos`, etc.) that match how GitHub Pages serves the files. To replicate this locally, use [`npx serve`](https://www.npmjs.com/package/serve) instead of Live Server:
+
+```bash
+npx serve .
+```
+
+The included `serve.json` enables `cleanUrls` automatically, so `/sobre` resolves to `sobre.html` exactly as it does on production. GitHub Pages ignores `serve.json`.
+
 ## Credits
 
 Designed and developed by:
